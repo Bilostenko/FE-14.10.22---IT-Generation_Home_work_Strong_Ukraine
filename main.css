@@ -1,0 +1,172 @@
+html{
+  min-width: 320px;
+  max-width: 1440px;
+  margin: auto;
+}
+/* -------------HEADER------------ */
+header{
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  font-family: "M PLUS 1";
+  font-size: 48px;
+  color: rgba(62, 69, 232, 1)  
+}
+span{
+  color: rgba(232, 194, 62, 1)
+}
+
+/* -----------------INTRO---------- */
+
+.intro_wrapper{
+  background-image: url(./img/intro.png);
+  height: 803px;
+  width: 100%;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.intro_line_yellow{
+  width: 22px;
+  height: 136px;
+  background-color: #fbe201;
+}
+.intro_line_blue{
+  width: 22px;
+  height: 136px;
+  background-color: #1e8df2;
+}
+.intro_text{
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 75.5px;
+  font-family: Inika;  
+}
+.intro_tex_container{
+  width: 1036px;
+  height: 439px;
+}
+.intro_line_container{
+ margin-right: 16px;
+ margin-top: -130px;
+}
+
+/* ----------PLACES----------- */
+.places_wrapper{
+  display: flex; 
+  flex-direction: column;
+  margin-left: 80px;
+}
+.places_header{
+  flex-wrap: wrap;
+  font-family: Inika;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 20px 0 10px;
+}
+.places_line{
+  width: 402px;
+  height: 3px;
+  background-color: rgba(62,69,232,1);  
+}
+.places_cards{
+  display: flex;
+  margin-top: 33px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+.places_card_title{
+  font-family: Inika;
+  font-style: bold;
+  font-size: 24px;
+  color: #1e8df2;
+  padding-top: 16px;
+  padding-left: 10px;
+}
+.places_card_text{
+ font-family: Inika;
+ font-size: 20px;
+ font-style: regular;
+ color: #e8c23e;
+ padding-top: 10px;
+ padding-left: 10px;
+}
+.places_card_tustan, .places_card_lutsk, .places_card_mohyla{
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0px 7px 30px 10px  rgba(0,0,0,0.3), 40px 40px 10px -40px  rgba(0,0,0,0.8) inset;
+  padding-bottom: 30px;
+}
+/* ---------------UKRAINE---------- */
+.ukraine_wrapper{
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+}
+.ukraine_header{
+  display: flex;
+  margin-bottom: 12px;
+  justify-content: center !important;
+}
+.ukraine_line{
+margin-left: 35%;
+display: flex;
+width: 402px;
+
+}
+.ukraine_map_wrapepr{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 41px;
+
+}
+.ukraine_support_btn{
+  width: 591px;
+  height: 121px;
+  background-color: #2a61f0;
+  color: #ffffff;
+  font-size: 64px;
+  font-family: Inika;
+  font-style: bold;
+  border: none;
+  margin-top: 51px;
+  margin-bottom: 31px;
+  margin: 10px auto 20px;
+  cursor: pointer;  
+}
+/* ----------FOOTER----------- */
+.footer{
+  width: 100%;
+  height: 320px;
+  background-color: #2f4a4b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_header{
+  font-family: "M PLUS 1";
+  font-size: 48px;
+  color: rgba(62, 69, 232, 1);
+  padding-bottom: 31px; 
+}
+.footer_info{
+  font-family: Marcellus SC;
+  font-weight: 400;
+  font-size: 36px;
+  color: #a89d9d;
+  align-items: center;
+  display: flex;
+  padding-bottom: 21px;
+}
+.links{
+  margin-top: 21px;
+  display: flex;
+  cursor: pointer;
+}
